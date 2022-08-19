@@ -1,0 +1,58 @@
+body {
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-wrapper {
+  width: 90vw;
+  height: 90vh;
+  box-shadow: 3px 3px 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.playerName {
+  margin-top: 75px;
+}
+
+.p1Score,
+.p2Score {
+  margin-top: 50px;
+}
+
+.current {
+  margin-top: 150px;
+  background-color: coral;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.player1,
+.player2,
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  align-items: center;
+}
+.newGame {
+  margin-top: 50px;
+}
+
+.dice {
+  margin-top: 100px;
+}
+
+.rollDice {
+  margin-top: 100px;
+}
+.holdScore {
+  margin-top: 25px;
+}
